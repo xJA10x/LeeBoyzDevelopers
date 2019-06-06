@@ -1,0 +1,169 @@
+
+/***********************************
+
+    Body Styles
+
+************************************/
+
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px auto;
+  padding: 0px;
+  position: center;
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 980px;
+  min-width: 250px;
+  font-family: Verdana, Geneva, sans-serif;
+  background: url('../pictures/desktop.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+/**************************************
+
+Main header
+
+***************************************/
+
+#main {
+
+  text-align: center;
+  font-size: 80px;
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-weight: 800;
+  padding: 15px 10px;
+
+
+}
+
+/***************************************
+
+Header and Navigation
+
+***************************************/
+
+header nav {
+
+  text-align: right;
+  paddding: 10px 0;
+  margin: 20px 0 0;
+
+}
+
+header nav ul {
+
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+
+}
+
+header nav li {
+
+  display: inline-block;
+
+}
+
+header nav a {
+
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 25px;
+
+}
+
+/*************************
+
+website nav
+
+**************************/
+
+#website nav {
+
+  text-align: center;
+
+}
+
+/*************************
+
+Article styles
+
+**************************/
+
+article h2 {
+
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+article h3 {
+
+  color: #7fffd4;
+  text-align: center;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 50px;
+
+}
+
+article h4 {
+
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 20px;
+
+}
+
+article p {
+
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 20px;
+
+}
+
+/*======================================
+
+            Contacts Style
+
+========================================*/
+
+#Contacts{
+
+  text-align: left;
+  position: left;
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 22px;
+
+}
+
+
+/**************************
+
+footer styles
+
+**************************/
+
+footer {
+
+  clear left;
+  font-size: 22px;
+  text-align: center;
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  margin-top: 100px;
+
+}
