@@ -52,8 +52,10 @@ Header and Navigation
 header nav {
 
   text-align: right;
-  paddding: 10px 0;
+  padding: 10px 0;
   margin: 20px 0 0;
+  position: top;
+
 
 }
 
@@ -62,6 +64,7 @@ header nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
+  position: top;
 
 }
 
@@ -79,7 +82,37 @@ header nav a {
   color: #7fffd4;
   text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
+  position: top;
 
+}
+/*************************
+    Top Navigation
+**************************/
+
+.topnav {
+  overflow: hidden;
+  background-color: #808080;
+}
+
+.topnav a {
+  float: left;
+  color: #7fffd4;
+  position: top;
+  width:120px;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  color: white;
+  position: top;
+}
+
+.topnav a.active {
+  color: white;
+  position: top;
 }
 
 /*************************
