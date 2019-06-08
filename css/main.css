@@ -90,8 +90,10 @@ header nav a {
 **************************/
 
 .topnav {
-  overflow: hidden;
-  background-color: #808080;
+  overflow: auto;
+  background: url('../pictures/software.png');
+  background-size: cover;
+  background-repeat:
 }
 
 .topnav a {
