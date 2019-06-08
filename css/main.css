@@ -9,13 +9,6 @@
 body {
 
   font-family: 'Open Sans', sans-serif;
-  margin: 0px auto;
-  padding: 0px;
-  position: center;
-  line-height: 1.5em;
-  width: 100%;
-  max-width: 980px;
-  min-width: 250px;
   font-family: Verdana, Geneva, sans-serif;
   background: url('../pictures/desktop.png');
   background-size: cover;
@@ -24,6 +17,20 @@ body {
   background-attachment: fixed;
 
 }
+
+#wrapper {
+
+  margin: 0px auto;
+  padding: 0px;
+  position: center;
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 980px;
+  min-width: 250px;
+
+
+}
+
 
 /**************************************
 
@@ -39,6 +46,13 @@ Main header
   text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-weight: 800;
   padding: 15px 10px;
+
+
+}
+
+#theNav {
+
+  max-width: 100%;
 
 
 }
@@ -91,7 +105,8 @@ header nav a {
 
 .topnav {
   overflow: auto;
-  background: url('../pictures/software.png');
+  background: url('../pictures/banner.png');
+  max-width: 100%;
   background-size: cover;
   background-repeat:
 }
