@@ -55,12 +55,13 @@ Main header
 
 #main {
 
-  text-align: center;
+  text-align: left;
   font-size: 70px;
   color: #7fffd4;
   text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 15px 20px;
+  margin-left: 70px;
 
 
 }
@@ -68,7 +69,6 @@ Main header
 #theNav {
 
   max-width: 100%;
-
 
 }
 
@@ -81,7 +81,7 @@ Header and Navigation
 header nav {
 
   text-align: right;
-  padding: 10px 0;
+  padding: 20px 0;
   margin: 20px 0 0;
   position: top;
 
@@ -121,8 +121,11 @@ header nav a {
 .topnav {
   overflow: auto;
   background: url('../pictures/banner.png');
-  max-width: 100%;
+  padding-top: 170px;
+  height: 850px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 
 }
 
