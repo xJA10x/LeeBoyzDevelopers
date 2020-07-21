@@ -19,29 +19,30 @@
         <h3>>_Full Stack Software Engineers</h3>
         <h2>>_Meet the team</h2>
       </article>
-
       <article>
-        <img src="pictures/jceron.png" class="profile-photo">
+        <h3>>_Full Stack Software Developers</h3>
+        <h2>>_Meet the team</h2>
         <h2>>_$Jhoset Ceron --- CTO</h2>
+        <img src="pictures/jceron.png" class="profile-photo">
+      </article>
+      <article>
         <p>
-          >_Hello friends, my name is Jhoset and I am a software developer that likes to code in various programming languages such as Java, JavaScript, C#, C++ and many more. I was born in Cali, Colombia,
-           but moved to the United States when I was 15 years old. When I was 19, I started watching my first tutorials on youtube on HTML, CSS, and JavaScript. I was really
-           enjoying watching these tutorials so I decided to go back to school and getting a degree in Computer Programming.
+          >_Hello friends, my name is Jhoset and I am the CTO of LeeBoyzDeveloperz and a software developer that likes to code in various programming languages such as Java, JavaScript, C#, C++ and many more. 
            My main passion is to build websites and getting involved in both aspects of the development process such as front end development and back end development.
-            At the moment I'm learning about web application using node.js, typescript, and react.js.
-             Also learning about databases using PostgreSQL and MongdoDB. When I am not programming, I like to read articles on the web that can
-             expand my knowledge in computer science , exercise, and spend time with my family and friends.
+           When I am not programming, I like to read articles on the web that can
+             expand my knowledge in computer science , exercise, and spend time with my family, friends, and patrons.
         </p>
       </article>
-
       <article>
-        <img src="pictures/pablo.png" class="profile-photo">
         <h2>>_$Pablo Benjumea --- CEO</h2>
+        <img src="pictures/pablo.png"/ class="profile-photo">
+      </article>
+      <article>
         <p>
-         >_Hello everyone, my name is Pablo. I was born in West New York in New Jersey. When I was a little kid I started to like computers. My first computer was when I was 10 years old. I started to play PC games that also involve upgrading computer parts to make the computer run smoothly.
-         I realized that computer science was for me, so I chosed to become a software developer. I graduated in 2019 at Florida Southwestern college.
-         I know various programming languages such as C#, Java, JavaScript, Php, and Python. Right now, I am learning about databases using PostgreSQL and MongoDB as well as learning how to do the backend with Node.js, typescript, and react.js. I am a very passioneted for this career,
-         when I am free I like to spend time with my family and friends.
+         >_Hello everyone, my name is Pablo the CEO of LeeBoyzDeveloperz. 
+          I graduated in 2019 at Florida Southwestern college as a Commputer programmer and Analysis. 
+          I know various programming languages that are C#, Java, JavaScript, Php, and Python.Right. when I am free from work, 
+          I like to spend time with my family friends and catch up with my valuable patron.
         </p>
       </article>
 
