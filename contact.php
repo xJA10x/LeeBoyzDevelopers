@@ -7,15 +7,8 @@
   </head>
   <body>
     <header>
-        <div class="topnav">
-        <nav>
-          <h1 id="main">>_LeeBoyz Developerz</h1>
-          <ul>
-            <li><a href="index.html">Portfolio</a>
-            <li><a href="about.html">Team</a>
-            <li><a href="Contact.html">Contact</a>
-          </ul>
-        </nav>
+      <div class="topnav">
+        <?php include("include/header.html"); ?>
       </div>
     </header>
     <div id="wrapper">
@@ -67,11 +60,7 @@
     </section>
   </div>
   <footer class="main-footer">
-    <address>
-      &copy; 2019 - 2020 >_LeeBoyz Developerz &bull;
-      Fort Myers &bull;
-      Florida
-    </address>
+    <?php include("footer.html"); ?>
   </footer>
   </body>
 </html>
