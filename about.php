@@ -16,10 +16,6 @@
     <br />
     <section>
       <article>
-        <h3>>_Full Stack Software Engineers</h3>
-        <h2>>_Meet the team</h2>
-      </article>
-      <article>
         <h3>>_Full Stack Software Developers</h3>
         <h2>>_Meet the team</h2>
         <h2>>_$Jhoset Ceron --- CTO</h2>
@@ -82,7 +78,7 @@
     </section>
   </div>
   <footer class="main-footer">
-    <?php include("footer.html"); ?>    
+    <?php include("include/footer.html"); ?>    
   </footer>
   </body>
 </html>

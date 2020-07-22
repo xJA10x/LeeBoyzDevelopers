@@ -14,10 +14,8 @@
   </head>
   <body>
     <header>
-        <div class="topnav">
-        <div class="topnav">
+      <div class="topnav">
         <?php include("include/header.html"); ?>
-      </div>
       </div>
     </header>
     <div id="wrapper">
