@@ -48,6 +48,7 @@ body {
 
 
 }
+
 /**************************************
 
 .card-horizontal
@@ -71,6 +72,7 @@ body {
 {
   padding: 10px;
 }
+
 /**************************************
 
 Main header
@@ -142,15 +144,17 @@ header nav a {
   position: top;
 
 }
+
 /*************************
     Top Navigation
 **************************/
 
 .topnav {
+
   overflow: auto;
   background: linear-gradient(#79CDCD, transparent 90%), linear-gradient(0deg, #fff, transparent), #AFEEEE url('../pictures/banner.png');
   padding-top: 170px;
-  height: 850px;
+  height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
