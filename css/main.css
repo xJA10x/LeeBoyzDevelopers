@@ -44,9 +44,33 @@ body {
   flex-grow: 1;
 
 
+  /* border: solid blue; */
+
+
+}
+/**************************************
+
+.card-horizontal
+
+***************************************/
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.profile-photo 
+ {
+  z-index: -1;
 }
 
-
+.card-text
+{
+  text-indent: 50px;   
+}
+.mainabout
+{
+  padding: 10px;
+}
 /**************************************
 
 Main header
@@ -87,11 +111,15 @@ header nav {
 
 
 }
+.thenav
+{
+  text-decoration:none;
+}
 
 header nav ul {
 
   list-style: none;
-  margin: 0 10px;
+  margin: 10px 10px ;
   padding: 0;
   position: top;
 
@@ -134,13 +162,15 @@ header nav a {
   color: #7fffd4;
   position: top;
   width:120px;
-  padding: 15px 10px;
+  margin: 5px;
+  padding: 5px;
   text-decoration: none;
   text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
 }
 
 .topnav a:hover {
+  text-decoration: none;
   color: white;
   position: top;
 }

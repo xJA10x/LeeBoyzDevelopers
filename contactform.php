@@ -1,21 +1,18 @@
-<?php 
-	 
-	if (isset($_POST['submit']))
-	{
-		$name = $_POST['name'];
-		$companyName = $_POST['companyName'];
-		$subject = $_POST['subject'];
-		$mailFrom = $_POST['mail'];
-		$message = $_POST['message'];
-		
-		$mailTo ="leeboyz@leeboyzdeveloperz.tech";
-		$headers ="From: ".$mailFrom;
-		$txt ="You have received an e-mail from".$name.".\n\n".$message;
-		
-		mail($mailTo, $subject, $txt, $headers);
-		header("Location: index.php?mailsend");
-	}
+<?php
+if(isset( $_POST['name']))
+$name = $_POST['name'];
+if(isset( $_POST['email']))
+$email = $_POST['email'];
+if(isset( $_POST['message']))
+$message = $_POST['message'];
+if(isset( $_POST['subject']))
+$subject = $_POST['subject'];
 
-
-
+$content="From: $name \n Email: $email \n Message: $message";
+$recipient = "leeboyz@leeboyzdeveloperz.tech";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $content, $mailheader) or die("Error!");
+echo "Email sent!";
+header("Location: index.php?mailsend");
 ?>
+

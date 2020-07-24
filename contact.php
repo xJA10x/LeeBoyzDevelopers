@@ -1,23 +1,13 @@
 
 <html>
-  <head>
-    <title>>_LeeBoyz Developers</title>
-    <meta charset="utf-8">
-    <link href="css/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- <link href="css/normalize.css" rel="stylesheet" /> -->
-    <!-- <link href="css/mystyle.css" rel="stylesheet" /> -->
-
-  </head>
   <body>
     <header>
-      <div class="topnav">
+        <div class="topnav">
         <?php include("include/header.html"); ?>
-      </div>
+         </div>
     </header>
+
+    
     <div id="wrapper">
     <section>
       <article>
@@ -29,7 +19,7 @@
 <!--Section heading-->
 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
 <!--Section description-->
-<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Need a website or mobile app, please do not hesitate to contact us directly. Our team will come back to you within
+<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
     a matter of hours to help you.</p>
 
 <div class="row">
@@ -125,11 +115,7 @@
     </section>
   </div>
   <footer class="main-footer">
-    <address>
-      &copy; 2019 - 2020 >_LeeBoyz Developerz &bull; Produced by Jhoset & Pablo &bull;
-      Fort Myers &bull;
-      Florida
-    </address>
+  <?php include("include/footer.html"); ?>   
   </footer>
   </body>
 </html>
