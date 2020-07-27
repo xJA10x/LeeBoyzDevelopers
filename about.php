@@ -78,7 +78,7 @@
                                                 <img src="pictures/mc2.png" class="profile-photo">
                                             </div>
                             <div class="card-body">
-                                <h4 class="card-title">>_$Mc dad Louigene Photographer</h4>
+                                <h4 class="card-title">>_$Mc dad Louigene --- Photographer && Co-Founder </h4>
                                     <p class="card-text">>_My name is MC Dad Louigene, and I am a freelance photographer and a Model. Before I became a photographer, I was a professional welder.
                                         I love welding, but what I love the most is the sound my camera makes while capturing your most exceptional postures. This is just one of
                                         the many reasons I am passionate about photography because it's not about me, welding, or my camera, but instead about capturing your
