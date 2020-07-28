@@ -37,7 +37,7 @@ body {
   padding: 0px;
   position: center;
   line-height: 1.5em;
-  width: 100%;
+  width: 1400px;
   max-width: 980px;
   min-width: 250px;
 
@@ -277,7 +277,7 @@ footer styles
 
 .main-footer {
 
-  clear left;
+  clear: left;
   font-size: 22px;
   text-align: center;
   color: #7fffd4;

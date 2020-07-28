@@ -9,8 +9,9 @@
       <div id="wrapper">
         <section>
           <article>
-            <br />
+            <br /> <div class= "subTitle" >                               
             <h2>>_Checkout our portfolio websites below</h2>
+            </div>
             <br />
             <!-- Bootstrap website cards -->
             <div class="card-deck">
