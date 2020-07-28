@@ -10,7 +10,14 @@
   width: 1000px;
 }
 
+/*******************************
+
+Structure styles
+
+********************************/
+
 .structure {
+
   border: solid red;
   width: 30%;
   height: 75%;
@@ -18,34 +25,119 @@
   margin: 0 auto;
   position: relative;
   left: 20px;
+
 }
+
+/************************************
+
+Subheader styles
+
+************************************/
+
 .subheader {
+
   border: solid pink;
   width: 100%;
   height: 25%;
+
 }
+
+/****************************************
+
+Subody styles
+
+*****************************************/
+
 .subbody {
+
   border: solid green;
   width: 100%;
   height: 50%;
+
 }
+
+/************************************
+
+Whole styles
+
+************************************/
+
 .whole {
+
   border: solid white;
   position: absolute;
   margin: 0 auto;
   width: 100%;
   height: 25%;
   bottom: 10px;
+
 }
+
 .left {
+
   border: solid yellow;
   width: 50%;
   height: 100%;
   float: left;
+
 }
+
 .right {
+
   border: solid brown;
   width: 50%;
   height: 100%;
   float: right;
+
+}
+
+/*******************************
+
+Main title styles
+
+********************************/
+
+.mainTitle h3 {
+
+  text-align: center;
+  padding-top: 140px;
+  font-size: 50px;
+  color: #7fffd4;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 30px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-weight: 800;
+  
+}
+
+/********************************
+
+title styles
+
+*********************************/
+
+h1 {
+
+  color: #7fffd4;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 30px;
+  text-align: center;
+
+
+}
+
+/***********************************
+
+Logo styles
+
+*************************************/
+
+.mainPic {
+
+  position: fixed;
+  top: 5px;
+  width:  300px;
+  height: 107px;
+  text-align: left;
+  
 }
