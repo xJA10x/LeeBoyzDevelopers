@@ -85,7 +85,7 @@
       </article>
     </section>
   </div>
-  </div>
+</div>
   <footer class="main-footer">
     <?php include("include/footer.html"); ?>
   </footer>

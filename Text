@@ -91,3 +91,7 @@
                             </div>
                         </div> 
                 </div>
+
+                 background: linear-gradient(#CCFFFF, transparent 40%),
+  linear-gradient(0deg, #fff, transparent),
+  #afeeee url("../pictures/desktop2.png");
