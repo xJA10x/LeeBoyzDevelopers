@@ -1,16 +1,13 @@
-
 /***********************************
 
     Body Styles
 
 ************************************/
 
-
 body {
-
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-family: Verdana, Geneva, sans-serif;
-  background: url('../pictures/desktop2.png');
+  background: url("../pictures/desktop2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,13 +23,18 @@ body {
   flex-grow: flex;
   flex-direction: column;
   min-height: 100vh;
+}
 
-
-
+.container
+{
+  background-color: #CCFFFF ;
+  min-height: 100vh;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 #wrapper {
-
   margin: 0px auto;
   padding: 0px;
   position: center;
@@ -43,10 +45,7 @@ body {
 
   flex-grow: 1;
 
-
   /* border: solid blue; */
-
-
 }
 
 /**************************************
@@ -59,17 +58,14 @@ body {
   display: flex;
   flex: 1 1 auto;
 }
-.profile-photo 
- {
+.profile-photo {
   z-index: -1;
 }
 
-.card-text
-{
-  text-indent: 50px;   
+.card-text {
+  text-indent: 50px;
 }
-.mainabout
-{
+.mainabout {
   padding: 10px;
 }
 
@@ -80,22 +76,18 @@ Main header
 ***************************************/
 
 #main {
-
   text-align: left;
   font-size: 70px;
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-weight: 800;
   padding: 15px 20px;
   margin-left: 70px;
-
-
 }
 
 #theNav {
-
   max-width: 100%;
-
 }
 
 /***************************************
@@ -105,44 +97,35 @@ Header and Navigation
 ***************************************/
 
 header nav {
-
   text-align: right;
   padding: 20px 0;
   margin: 20px 0 0;
   position: top;
-
-
 }
-.thenav
-{
-  text-decoration:none;
+.thenav {
+  text-decoration: none;
 }
 
 header nav ul {
-
   list-style: none;
-  margin: 10px 10px ;
+  margin: 10px 10px;
   padding: 0;
   position: top;
-
 }
 
 header nav li {
-
   display: inline-block;
-
 }
 
 header nav a {
-
   font-weight: 800;
   padding: 15px 10px;
   text-decoration: none;
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
   position: top;
-
 }
 
 /*************************
@@ -150,26 +133,27 @@ header nav a {
 **************************/
 
 .topnav {
-
   overflow: auto;
-  background: linear-gradient(#79CDCD, transparent 90%), linear-gradient(0deg, #fff, transparent), #AFEEEE url('../pictures/banner.png');
+  background: linear-gradient(#79cdcd, transparent 90%),
+    linear-gradient(0deg, #fff, transparent),
+    #afeeee url("../pictures/banner.png");
   padding-top: 170px;
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-
 }
 
 .topnav a {
   float: left;
   color: #7fffd4;
   position: top;
-  width:120px;
+  width: 120px;
   margin: 5px;
   padding: 5px;
   text-decoration: none;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
 }
 
@@ -191,9 +175,7 @@ website nav
 **************************/
 
 #website nav {
-
   text-align: center;
-
 }
 
 /*************************
@@ -203,46 +185,40 @@ Article styles
 **************************/
 
 article h2 {
-
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
   text-align: center;
-
 }
 
 article h3 {
-
   color: #7fffd4;
   text-align: center;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 50px;
-
 }
 
 article h4 {
-
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 20px;
-
 }
 
 article p {
-
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 25px;
-
 }
 
 .profile-photo {
-
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
-
 }
 
 /*======================================
@@ -251,23 +227,19 @@ article p {
 
 ========================================*/
 
-#Contacts{
-
+#Contacts {
   text-align: left;
   position: left;
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 30px;
-
 }
 
 #Contacts h1 {
-
   text-align: center;
   font-size: 50px;
-
 }
-
 
 /**************************
 
@@ -276,19 +248,18 @@ footer styles
 **************************/
 
 .main-footer {
-
   clear: left;
   font-size: 22px;
   text-align: center;
   color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   margin-top: 100px;
   padding-top: 220px;
   padding-bottom: 60px;
-  background: url('../pictures/banner.png');
+  background: url("../pictures/banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
-
 }

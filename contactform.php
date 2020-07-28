@@ -14,5 +14,3 @@
     mail($recipient, $subject, $content, $mailheader) or die("Error!");
     echo "Email sent!";
     header("Location: index.php?mailsend");
-?>
-
