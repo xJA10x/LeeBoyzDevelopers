@@ -92,13 +92,13 @@ Main header
 
 #main {
 
-  text-align: left;
+  text-align: center;
   font-size: 70px;
   color: #7fffd4;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
     0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-weight: 800;
-  padding: 90px 20px;
+  padding: 50px 20px;
   margin-left: 70px;
 
 }
