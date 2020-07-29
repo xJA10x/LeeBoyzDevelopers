@@ -26,7 +26,7 @@
                                 </div> 
                                 <div class="titlename">
                                     <h4>>_$Pablo Benjumea ---</h4>
-                                    <h5>CTO Co-Founder</h5>
+                                    <h5>CTO && Co-Founder</h5>
                                 </div>
                             </div><!-- ending of subheader -->
                             <div class="subbody">
@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="titlename">
                                     <h4>>_$Jhoset Ceron ---</h4>
-                                    <h5>CTO Co-Founder</h5>
+                                    <h5>CTO && Co-Founder</h5>
                                 </div>
                             </div><!-- ending of subheader -->
                             <div class="subbody">
