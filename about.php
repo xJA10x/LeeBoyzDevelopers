@@ -19,25 +19,26 @@
                     <div class="main-about">
                         <!-- Begin of structure -->
                         <div class="structure">
+                                <!-- begining of subheader -->
                             <div class="subheader">
                                 <div class="img-square-wrapper">
                                     <img src="pictures/pablo.png"/ class="profile-photo">
-                                </div> -->
+                                </div> 
                                 <div class="titlename">
                                     <h4>>_$Pablo Benjumea ---</h4>
                                     <h5>CTO Co-Founder</h5>
                                 </div>
-                            </div>
+                            </div><!-- ending of subheader -->
                             <div class="subbody">
-                                <p class="card-text">>_Hello everyone, my name is Pablo the CEO of LeeBoyzDeveloperz.
-                                    I graduated in 2019 at Florida Southwestern college as a Commputer programmer and Analysis.
-                                    I know various programming languages that are C#, Java, JavaScript, Php, and Python.Right. when I am free from work,
-                                    I like to spend time with my family friends and catch up with my valuable patron.
+                                <p class="card-text">>_Hello everyone, my name is Pablo the CEO of LeeBoyzDeveloperz. 
+                                    It's pleasure to be in the service of my patrons and whenI am free from work,
+                                    I like to spend time with my family friends and catch up with my valuable patrons.
                                 </p>
                             </div>
                         </div>
                         <!-- End of structure -->
                         <div class="structure">
+                            <!-- begining of subheader -->
                             <div class="subheader">
                                 <div class="img-square-wrapper">
                                     <img src="pictures/jceron.png" class="profile-photo">
@@ -46,7 +47,7 @@
                                     <h4>>_$Jhoset Ceron ---</h4>
                                     <h5>CTO Co-Founder</h5>
                                 </div>
-                            </div>
+                            </div><!-- ending of subheader -->
                             <div class="subbody">
                                 <p class="card-text">
                                     >_Hello friends, my name is Jhoset and I am the CTO of LeeBoyzDeveloperz and a software developer that likes to code in various programming languages.
@@ -56,7 +57,7 @@
                         </div>
                         <!-- End of structure -->
                         <div class="structure">
-                            <div class="subheader">
+                            <div class="subheader">           <!-- begining of subheader -->
                                 <div class="img-square-wrapper">
                                     <img src="pictures/mc.png" class="profile-photo">
                                 </div>
@@ -64,7 +65,7 @@
                                     <h4>>_$Mc Andy Louigene --- </h4>
                                     <h5> CFO && Co-Founder</h5>
                                 </div>
-                            </div>
+                            </div><!-- ending of subheader -->
                             <div class="subbody">
                                 <p class="card-text">>_In today's day and age, businesses need a website to operate more efficiently and effectively. My goal is not limited to
                                     designing, building, and customizing websites. I challange myself to keep up with the latest technology and improve my skilss daily to
