@@ -80,7 +80,10 @@
                                     <div class="img-square-wrapper">
                                         <img src="pictures/mc2.png" class="profile-photo">
                                     </div>
-                                    <h4 class="card-title">>_$Mc dad Louigene --- Photographer && Co-Founder </h4>
+                                    <div class="card-title">
+                                    <h4>>_$Mc dad Louigene ---  </h4>
+                                    <h5>Photographer && Co-Founder</h5>
+                                    </div>
                                     <p class="card-text">>_My name is MC Dad Louigene, and I am a contractor photographer 
                                         and a Model for LeeBoyzDeveloperz.
                                     </p>
@@ -91,7 +94,10 @@
                                     <div class="img-square-wrapper">
                                         <img src="pictures/isabel2.png" width="100px" float="left" class="profile-photo">
                                     </div>
-                                    <h4 class="card-title">>_$Isabel Cristina --- Software Engineer</h4>
+                                    <div class="card-title">
+                                    <h4>>_$Isabel Cristina---</h4>
+                                    <h5>Software Engineer</h5>
+                                    </div>
                                     <p class="card-text"> >_Hello everyone, my name is Isabel and a currently a Software Engineer.
                                         I felt in love ever since I start working with LeeBoyzDeveloperz.
                                         My main passion is to build websites and work in the frontend as well as the backend.

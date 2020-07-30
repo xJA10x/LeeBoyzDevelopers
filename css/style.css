@@ -1,9 +1,9 @@
 #wrapper {
-  border: solid salmon;
+  /* border: solid salmon; */
 }
 
 .main-about {
-  border: solid blue;
+  /* border: solid blue; */
   margin: 0 auto;
   position: relative;
   height: 1000px;
@@ -17,16 +17,26 @@ Structure styles
 ********************************/
 
 .structure {
-
-  border: solid red;
+  background:linear-gradient(#CCFFFF, transparent 25%),
+  linear-gradient(0deg, #fff, transparent), black;
   width: 30%;
-  height: 75%;
+  height: 60%;
   float: left;
-  margin: 0 auto;
+  margin:  10px 10px 10px 10px;
   position: relative;
   left: 20px;
-
+  transition: all .2s ease-in-out;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #2f9b9b, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
+.structure:hover
+{ transform: scale(1.1); }
 
 /************************************
 
@@ -36,7 +46,7 @@ Subheader styles
 
 .subheader {
 
-  border: solid pink;
+  /* border: solid pink; */
   width: 100%;
   height: 25%;
 
@@ -49,21 +59,31 @@ Subody styles
 *****************************************/
 
 .subbody {
-
-  border: solid green;
   width: 100%;
   height: 70%;
 
 }
-
-.subbody p {
-
-  padding-top: 60px;
-  font-size: 1em;
-
-
+.img-square-wrapper
+{
+  padding-top: 10px
+}
+.titlename
+{
+  padding-bottom: 30px;  
+}
+.subbody
+{
+  padding-top: 100px;
 }
 
+.card-text
+{
+  padding-top: 10px;
+  font-size: 1.1em;
+  text-indent: 50px;
+  margin: 10px 15px 10px 15px;
+  color: #264549;
+}
 /************************************
 
 Whole styles
@@ -73,12 +93,15 @@ Whole styles
 .whole {
 
   border: solid white;
+    background:linear-gradient(#CCFFFF, transparent 70%),
+  linear-gradient(0deg, #fff, transparent), black;
   position: absolute;
   margin: 0 auto;
   width: 100%;
   height: 25%;
-  bottom: 10px;
-
+  bottom: 60px;
+  margin: 10px 15px 10px 15px;
+  
 }
 
 .left {
@@ -87,16 +110,28 @@ Whole styles
   width: 50%;
   height: 100%;
   float: left;
-
+  transition: all .2s ease-in-out;
 }
-
+.left:hover
+{ transform: scale(1.1); }
 .right {
 
   border: solid brown;
   width: 50%;
   height: 100%;
   float: right;
-
+  transition: all .2s ease-in-out;
+  
+}
+.right:hover
+{ transform: scale(1.1); }
+.card-title
+{
+  border: bisque solid;
+  position: absolute;
+  bottom: 15px;
+  margin: 10px 15px 10px 15px;
+  /* padding-top: 100px; */
 }
 
 /*******************************
@@ -155,7 +190,14 @@ Title name styles
   text-align: center;
 
 }
-
+.card-title
+{
+  color: #7fffd4;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 20px;
+  text-align: center;
+}
 /***********************************
 
 Logo styles
