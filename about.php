@@ -10,8 +10,11 @@
         <div id="wrapper">
             <section>
                 <article>
-                    </br>
+                    <div class="bannerOne">
+                    <img src="pictures/DesktopBanner1.jpg">
+                    </div>
                     <div class="subTitle">
+                    
                         <h1>>_Full Stack Engineers</h1>
                         <h2>>_Meet the team</h2>
                     </div>

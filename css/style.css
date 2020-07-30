@@ -213,3 +213,19 @@ Logo styles
   text-align: left;
   
 }
+
+/**********************************
+
+Banner styles
+
+**********************************/
+
+.bannerOne {
+
+  margin-left: 50px;
+  margin-bottom: 80px;
+  position: relative;
+  right: 0px;
+  text-align: center;
+
+}
