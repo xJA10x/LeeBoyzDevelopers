@@ -6,6 +6,9 @@
       <?php include("include/header.html"); ?>
     </div>
   </header>
+  <div class="banner">
+            <?php include("include/banner.html"); ?>
+        </div>
   <div class="container">
   <div id="wrapper">
     <section>

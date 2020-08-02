@@ -4,15 +4,16 @@
     <header>
         <div class="topnav">
             <?php include("include/header.html"); ?>
-        </div>
+        </div>        
     </header>
+    <div class="banner">
+            <?php include("include/banner.html"); ?>
+        </div>
     <div class="container">
         <div id="wrapper">
             <section>
                 <article>
-                    <div class="bannerOne">
-                    <img src="pictures/DesktopBanner1.jpg">
-                    </div>
+                
                     <div class="subTitle">
                     
                         <h1>>_Full Stack Engineers</h1>

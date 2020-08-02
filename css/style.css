@@ -219,17 +219,29 @@ Logo styles
 Banner styles
 
 **********************************/
-
+.banner
+{
+  /* border: solid red; */
+}
 .bannerOne {
-
-  margin-left: 50px;
-  margin-bottom: 80px;
+  /* border: solid pink; */
+  width: 99vw;
+  overflow: hidden;   
   position: relative;
-  right: 150px;
-  margin-top: 50px;
-  background: linear-gradient(#79cdcd, transparent 90%),
-    linear-gradient(0deg, #fff, transparent),
-    #afeeee;
-
+  right: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+}
+.titleh6
+{
+  border: solid pink;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  right: 50px;
+  left: 50px;
+  /* margin: 0 auto; */
 
 }
