@@ -1,27 +1,25 @@
-function changeText(title1, title2, title3) {
+function changeText(portfolio, team, contact) {
 
-    var title1;
-    var title2;
-    var title3;
+    var portfolio;
+    var team;
+    var contact;
 
-    title1 = document.getElementById("title1");
-    title2 = document.getElementById("title2");
-    title3 = document.getElementById("title3");
+    portfolio = document.getElementById("portfolio");
+    team = document.getElementById("team");
+    contact = document.getElementById("contact");
 
-    if(getElementById(title1)) {
+        if(portfolio) {
 
-        document.getElementById("titleOne").innerHTML = "hello there";
+            document.getElementById("titleOne").innerHTML = "Something else";
 
-    } else if(getElementById(title2)) {
+        } else if(team) {
 
-        document.getElementById("titleTwo").innerHTML = "something else";
+            document.getElementById("titleTwo").innerHTML = "Le'ts do this";
 
-    } else if(getElementById(title3)) {
+        } else if(contact) {
 
-        document.getElementById("titleThree").innerHTML = "let's do this";
+            document.getElementById("titleThree").innerHTML = "Let's see if it works";
 
-    }
-
+        }
     
-
 }
