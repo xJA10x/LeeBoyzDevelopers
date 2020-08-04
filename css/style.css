@@ -190,14 +190,16 @@ Title name styles
   text-align: center;
 
 }
-.card-title
-{
+.card-title {
+
   color: #7fffd4;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
     0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 20px;
   text-align: center;
+
 }
+
 /***********************************
 
 Logo styles
@@ -219,12 +221,17 @@ Logo styles
 Banner styles
 
 **********************************/
-.banner
-{
-  /* border: solid red; */
+.banner {
+
+   /* border: solid red; 
+   height: 300px; */
+
+
 }
+
 .bannerOne {
-  /* border: solid pink; */
+
+  border: solid pink; 
   width: 99vw;
   overflow: hidden;   
   position: relative;
@@ -233,9 +240,18 @@ Banner styles
   margin-top: 0px;
   margin-right: 0px;
   max-width: 100%;
+  
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
-.titleh6
-{
+
+.titleh6 {
+
   border: solid pink;
   position: absolute;
   text-align: center;
@@ -243,5 +259,26 @@ Banner styles
   right: 50px;
   left: 50px;
   /* margin: 0 auto; */
+  font-family: 'Anton', sans-serif;
+  text-shadow: 0 0 5px rgb(145, 220, 223), 0 0 10px rgb(145, 220, 223), 0 0 20px rgb(145, 220, 223), 0 0 30px rgb(145, 220, 223),
+    0 0 40px rgb(145, 220, 223), 0 0 60px , 0 0 70px  rgb(145, 220, 223);;
+  color: #000;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-size: 1.5em;
+  
+}
+
+#titleTwo {
+
+  display: none;
+
+}
+
+#titleThree {
+
+  display: none;
 
 }
