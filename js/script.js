@@ -1,25 +1,32 @@
-function changeText(portfolio, team, contact) {
+function changeText() {
 
-    var portfolio;
+    var index;
     var team;
     var contact;
+    var titleOne;
+    var titleTwo;
+    var titleThree;
 
-    portfolio = document.getElementById("portfolio");
-    team = document.getElementById("team");
-    contact = document.getElementById("contact");
+    index = document.getElementById('index');
+    team = document.getElementById('team');
+    contact = document.getElementById('contact');
+    titleOne = document.getElementById('titleOne');
+    titleTwo = document.getElementById('titleTwo');
+    titleThree = document.getElementById('titleThree');
 
-        if(portfolio) {
+    if(index == titleOne) {
 
-            document.getElementById("titleOne").innerHTML = "Something else";
+        // Show three lines
 
-        } else if(team) {
 
-            document.getElementById("titleTwo").innerHTML = "Le'ts do this";
+    } else if (team == titleTwo) {
 
-        } else if(contact) {
+        // Show two lines
 
-            document.getElementById("titleThree").innerHTML = "Let's see if it works";
+    } else if (team == titleThree) {
 
-        }
-    
+        // Show one line
+
+    }
+
 }
