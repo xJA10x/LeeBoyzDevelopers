@@ -15,7 +15,8 @@
       <article>
         <br />
         <div class="subTitle">
-          <h2>>_Checkout our portfolio websites below</h2>
+          <h2>>_Checkout what we can do for you</h2>
+          <h2>>_Need a website or mobile app contact us</h2>
         </div>
         <br />
         <!-- Bootstrap website cards -->
