@@ -1,33 +1,19 @@
 function changeText() {
 
-    var index;
+    var home;
     var team;
     var contact;
-    var titleOne;
-    var titleTwo;
-    var titleThree;
+    var titleBannerOne;
+    var titleBannerTwo;
+    var titleBannerThree;
 
-    index = document.getElementById('index');
+    home = document.getElementById('home');
     team = document.getElementById('team');
     contact = document.getElementById('contact');
-    titleOne = document.getElementById('titleOne');
-    titleTwo = document.getElementById('titleTwo');
-    titleThree = document.getElementById('titleThree');
+    titleBannerOne = document.getElementById('titleBannerOne');
+    titleBannerTwo = document.getElementById('titleBannerTwo');
+    titleBannerThree = document.getElementById('titleBannerThree');
 
-    if(index == titleOne) {
-
-        // Show three lines
-
-
-    } else if (team == titleTwo) {
-
-        // Show two lines
-
-    } else if (team == titleThree) {
-
-        // Show one line
-
-    }
 
 }
 
