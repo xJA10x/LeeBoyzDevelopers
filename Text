@@ -64,10 +64,16 @@
                                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">>_$Mc dad Louigene --- Photographer && Co-Founder </h4>
-                                    <p class="card-text">>_My name is MC Dad Louigene, and I am a freelance photographer and a Model. Before I became a photographer, I was a professional welder.
-                                        I love welding, but what I love the most is the sound my camera makes while capturing your most exceptional postures. This is just one of
-                                        the many reasons I am passionate about photography because it's not about me, welding, or my camera, but instead about capturing your
+                                    <p class="card-text">>_
+                                    
+                                    My name is MC Dad Louigene, and I am a freelance photographer and a Model.
+                                     Before I became a photographer, I was a professional welder.
+                                        I love welding, but what I love the most is the sound my camera makes while capturing your most exceptional
+                                         postures. This is just one of
+                                        the many reasons I am passionate about photography because it's not about me, welding, or my camera, 
+                                        but instead about capturing your
                                         everlasting memory.
+                                        
                                     </p>
                             </div>
                         </div>
@@ -95,3 +101,83 @@
                  background: linear-gradient(#CCFFFF, transparent 40%),
   linear-gradient(0deg, #fff, transparent),
   #afeeee url("../pictures/desktop2.png");
+
+
+  <head>
+  <title>>_LeeBoyz Developers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+<div class="mainPic">
+  <img src="pictures/LeeBoyzIcon.png">
+</div>
+ <nav>
+  <h1 id="main">>_LeeBoyz Developerz</h1><!--
+  <ul>
+    <li><a onclick="changeText('titleOne')" id="defaultOpen" class="thenav" href="index.php">Portfolio</a>
+    <li><a onclick="changeText('titleTwo')"  class="thenav" href="about.php">Team</a>
+    <li><a onclick="changeText('titleThree')" class="thenav" href="contact.php">Contact</a>
+  </ul>-->
+  <button class="tablink" onclick="changeText('titleOne')">
+    <a  href="index.php" >Portfolio</a>
+  </button>
+<button class="tablink"  onclick="changeText('titleTwo')" >
+  <a href="about.php">Team</a>
+</button>
+<button class="tablink" onclick="changeText('titleThree')">
+  <a href="contact.php">Contact</a>
+</button>
+</nav> 
+
+<div class ="mainTitle">
+  <h3>Build and Design Brand that work</h3>
+</div>
+<!-- <script>
+  function changeText(pageTitle) {
+  var i, titleh6, thenav;
+  titleh6 = document.getElementsByClassName("titleh6");
+  for (i = 0; i < titleh6.length; i++) {
+    titleh6[i].style.display = "none";
+  }
+  thenav = document.getElementsByClassName("thenav");
+  for (i = 0; i < thenav.length; i++) {
+    thenav[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageTitle).style.display = "block";
+  }
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script> -->
+
+<script>
+  function changeText(pageNames) {
+    var i, titleh6, thenav;
+   titleh6 = document.getElementsByClassName("titleh6");
+    for (i = 0; i <titleh6.length; i++) {
+     titleh6[i].style.display = "none";
+    }
+    thenav = document.getElementsByClassName("thenav");
+    for (i = 0; i < thenav.length; i++) {
+      thenav[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageNames).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+//  document.getElementById("defaultOpen").click();
+  </script>
