@@ -286,6 +286,9 @@ Social media styles
   width: 50px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* Add a hover effect if you want */
@@ -310,7 +313,7 @@ Social media styles
 /* Linkeding */
 .fa-linkedin {
 
-   background: #55ACEE;
+   background: #0e76a8;
    color: white;
 
 }
@@ -318,7 +321,7 @@ Social media styles
 /* github */
 .fa-github {
 
-  background: #55ACEE;
+  background: #4078c0;
   color: white;
 
 }
@@ -326,7 +329,7 @@ Social media styles
 /* Instagram */
 .fa-instagram {
 
-  background: #55ACEE;
+  background: #3f729b;
   color: white;
 
 }
@@ -334,9 +337,23 @@ Social media styles
 /* Youtube */
 .fa-youtube {
 
-  background: #55ACEE;
+  background: #FF0000;
   color: white;
 
 }
 
+#footerHeading {
 
+  font-size: 20px;
+
+}
+
+/*********************************************
+Media queries
+************************************************/
+
+@media (max-height: 850px) {
+
+  
+
+}
