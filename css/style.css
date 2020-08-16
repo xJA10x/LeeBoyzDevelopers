@@ -1,10 +1,12 @@
 
 .main-about {
+
   /* border: solid blue; */
   margin: 0 auto;
   position: relative;
   height: 1000px;
   width: 1000px;
+  
 }
 
 /*******************************
@@ -14,6 +16,7 @@ Structure styles
 ********************************/
 
 .structure {
+
   background:linear-gradient(#CCFFFF, transparent 25%),
   linear-gradient(0deg, #fff, transparent), black;
   width: 30%;
@@ -31,9 +34,13 @@ Structure styles
       #2f9b9b, 
       rgba(0, 0, 0, 0)
     ) 1 100%;
+
 }
-.structure:hover
-{ transform: scale(1.1); }
+.structure:hover { 
+  
+  transform: scale(1.1); 
+
+}
 
 /************************************
 
@@ -60,27 +67,35 @@ Subody styles
   height: 70%;
 
 }
-.img-square-wrapper
-{
+
+.img-square-wrapper {
+
   padding-top: 10px
-}
-.titlename
-{
-  padding-bottom: 30px;  
-}
-.subbody
-{
-  padding-top: 100px;
+
 }
 
-.card-text
-{
+.titlename {
+
+  padding-bottom: 30px;  
+
+}
+
+.subbody {
+  
+  padding-top: 100px;
+
+}
+
+.card-text {
+
   padding-top: 10px;
   font-size: 1.1em;
   text-indent: 50px;
   margin: 10px 15px 10px 15px;
   color: #264549;
+
 }
+
 /************************************
 
 Whole styles
@@ -108,9 +123,15 @@ Whole styles
   height: 100%;
   float: left;
   transition: all .2s ease-in-out;
+
 }
-.left:hover
-{ transform: scale(1.1); }
+
+.left:hover { 
+
+  transform: scale(1.1); 
+
+}
+
 .right {
 
   border: solid brown;
@@ -120,15 +141,22 @@ Whole styles
   transition: all .2s ease-in-out;
   
 }
-.right:hover
-{ transform: scale(1.1); }
+
+.right:hover{ 
+  
+  transform: scale(1.1); 
+
+}
+
 .card-title
 {
+
   border: bisque solid;
   position: absolute;
   bottom: 15px;
   margin: 10px 15px 10px 15px;
   /* padding-top: 100px; */
+
 }
 
 /*******************************
@@ -163,7 +191,6 @@ h1 {
   font-size: 30px;
   text-align: center;
 
-
 }
 
 /*********************************
@@ -187,6 +214,7 @@ Title name styles
   text-align: center;
 
 }
+
 .card-title {
 
   color: #7fffd4;
@@ -240,6 +268,7 @@ Banner styles
 }
 
 .titleBanner {
+
   /* display: none; */
   border: solid pink;
   position: absolute;
@@ -259,6 +288,7 @@ Banner styles
   font-size: 1.5em;
   
 }
+
 /* 
 #titleBannerTwo {
 
@@ -280,6 +310,7 @@ Social media styles
 
 /* Style all font awesome icons */
 .fa {
+
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -288,25 +319,32 @@ Social media styles
   border-radius: 50%;
   margin-top: 10px;
   margin-bottom: 20px;
+
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
+
   opacity: 0.7;
+
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
+
   background: #3B5998;
   color: white;
+
 }
 
 /* Twitter */
 .fa-twitter {
+
   background: #55ACEE;
   color: white;
+
 }
 
 /* Linkeding */
@@ -348,7 +386,9 @@ Social media styles
 }
 
 /*********************************************
+
 Media queries
+
 ************************************************/
 
 @media (max-height: 850px) {

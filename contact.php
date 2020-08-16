@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <body>
     <header>
         <div class="topnav">
@@ -78,7 +77,7 @@
                                 <div class="col-md-3 text-center">
                                     <ul class="list-unstyled mb-0">
                                         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                            <p>Cape Coral Fl, 33903</p>
+                                            <p>Fort Myers Fl, 33901</p>
                                         </li>
                                         <li><i class="fas fa-phone mt-4 fa-2x"></i>
                                             <p>(813)-434-0169</p>
