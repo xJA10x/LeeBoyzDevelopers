@@ -77,7 +77,7 @@
               <p class="card-text">Need a landing page; we can help you</p>
             </div>
           </div>
-          
+          <!-- Beggining of Blog  -->
           <div class="card">
             <img class="card-img-top" src="pictures/Profeesional.png" alt="Card image cap">
             <div class="card-body">
@@ -86,6 +86,7 @@
             </div>
           </div>
         </div>
+        <!-- Ending of card-deck  -->
         <div class="card">
             <img class="card-img-top" src="pictures/HostingService.png " alt="Card image cap">
             <div class="card-body">
