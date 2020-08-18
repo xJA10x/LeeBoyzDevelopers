@@ -85,6 +85,10 @@ Subody styles
   padding-top: 100px;
 
 }
+.card-deck
+{
+  margin: 10px 15px 25px 15px;
+}
 
 .cards-text {
 
@@ -95,7 +99,20 @@ Subody styles
   color: #264549;
 
 }
+.card
+{
+  margin: 10px 15px 15px 15px;
+}
+.card-text {
 
+  padding-top: 10px;
+  font-size: 1.1em;
+  text-align-last: center;
+  /* text-indent: 50px; */
+  margin: 10px 15px 10px 15px;
+  color: #264549;
+
+}
 /************************************
 
 Whole styles
@@ -149,20 +166,19 @@ Whole styles
 
 }
 
-/* .card-title
+.card-title
 {
 
   /* border: bisque solid; */
   position: absolute;
   padding-left: 50px;
-  top: 170px;
+  top: 70px;
   margin: 10px 15px 10px 15px;
-<<<<<<< HEAD
   padding-top: 100px;
-=======
-  /* padding-top: 100px; */
-  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
-  0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
+   padding-top: 100px;
+   color: #7fffd4;
+   text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000,
+     0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
 
 }
 
@@ -176,11 +192,10 @@ Whole styles
   margin: 10px 15px 10px 15px;
   /* padding-top: 100px; */
   color: #7fffd4;
-  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
-  0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
->>>>>>> e8c4022c8636bf3c58c787fdb4d0d6f8646223d3
+  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 5px #000,
+  0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
 
-} */
+} 
 
 /*******************************
 
@@ -238,7 +253,7 @@ Title name styles
 
 }
 
-.card-title {
+.titlesname {
   border: bisque solid;
   position: absolute;
   bottom: 15px;

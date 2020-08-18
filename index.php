@@ -87,7 +87,8 @@
           </div>
         </div>
         <!-- Ending of card-deck  -->
-        <div class="card">
+        <div class="card-deck">
+          <div class="card">
             <img class="card-img-top" src="pictures/HostingService.png " alt="Card image cap">
             <div class="card-body">
               <h5 class="card-titleT">Hosting/Service:</h5>
@@ -96,6 +97,7 @@
             <a href="https://www.secureserver.net/?prog_id=566807" class="btn btn-primary">Get your domain</a>      
           </div>
         </div>
+      
       </article>
     </section>
   </div>

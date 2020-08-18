@@ -85,7 +85,7 @@
                                     <div class="img-square-wrapper">
                                         <img src="pictures/mc2.png" class="profile-photo">
                                     </div>
-                                    <div class="card-title">
+                                    <div class="titlesname">
                                     <h4>>_$Mc dad Louigene ---  </h4>
                                     <h5>Photographer && Co-Founder</h5>
                                     </div>
@@ -99,7 +99,7 @@
                                     <div class="img-square-wrapper">
                                         <img src="pictures/isabel2.png" width="100px" float="left" class="profile-photo">
                                     </div>
-                                    <div class="card-title">
+                                    <div class="titlesname">
                                     <h4>>_$Isabel Cristina---</h4>
                                     <h5>Software Engineer</h5>
                                     </div>
