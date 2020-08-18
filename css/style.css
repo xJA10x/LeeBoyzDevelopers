@@ -240,7 +240,7 @@ Banner styles
 }
 
 .titleBanner {
-  /* display: none; */
+  display: none;
   border: solid pink;
   position: absolute;
   text-align: center;

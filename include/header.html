@@ -22,15 +22,23 @@
 <nav>
   <h1 id="main">>_LeeBoyz Developerz</h1>
   <ul>
-    <li><a  id="home" class="thenav" href="index.php">Portfolio</a>
-    <li><a id="team"  href="about.php">Team</a>
-    <li><a id="contact" class="thenav" href="contact.php">Contact</a>
+    <li><a onclick="myHome" id="home" class="thenav" href="index.php">Portfolio</a>
+    <li><a onclick="myTeam" id="team"  href="about.php">Team</a>
+    <li><a onclick="myContact" id="contact" class="thenav" href="contact.php">Contact</a>
   </ul>
 </nav>
 <div class ="mainTitle">
   <h3>Build and Design Brand that work</h3>
 </div>
+<script>
 
+ var defaultTitle= document.getElementById("titleBannerOne");
+
+  function myHome() {
+    var x = document.getElementById("titleBannerTwo");
+    document.getElementById("titleBannerTwo").innerHTML = x;
+  }
+  </script>
 
 
 
