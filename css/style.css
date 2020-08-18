@@ -86,7 +86,7 @@ Subody styles
 
 }
 
-.card-text {
+.cards-text {
 
   padding-top: 10px;
   font-size: 1.1em;
@@ -148,16 +148,16 @@ Whole styles
 
 }
 
-.card-title
+/* .card-title
 {
 
   border: bisque solid;
   position: absolute;
   bottom: 15px;
   margin: 10px 15px 10px 15px;
-  /* padding-top: 100px; */
+  padding-top: 100px;
 
-}
+} */
 
 /*******************************
 
@@ -216,12 +216,16 @@ Title name styles
 }
 
 .card-title {
-
+  border: bisque solid;
+  position: absolute;
+  bottom: 15px;
+  margin: 10px 15px 10px 15px;
   color: #7fffd4;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
     0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
   font-size: 20px;
   text-align: center;
+
 
 }
 
