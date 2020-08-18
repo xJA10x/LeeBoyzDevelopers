@@ -157,7 +157,9 @@ Whole styles
   padding-left: 50px;
   top: 170px;
   margin: 10px 15px 10px 15px;
+<<<<<<< HEAD
   padding-top: 100px;
+=======
   /* padding-top: 100px; */
   text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
   0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
@@ -176,6 +178,7 @@ Whole styles
   color: #7fffd4;
   text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
   0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
+>>>>>>> e8c4022c8636bf3c58c787fdb4d0d6f8646223d3
 
 } */
 
