@@ -30,7 +30,7 @@
                                 </div> 
                                 <div class="titlename">
                                     <h6>>_$Pablo Benjumea ---</h6>
-                                    <h5>CTO && Co-Founder</h5>
+                                    <h6>CTO && Co-Founder</h6>
                                 </div>
                             </div><!-- ending of subheader -->
 
@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="titlename">
                                     <h6>>_$Jhoset Ceron ---</h6>
-                                    <h5>CTO && Co-Founder</h5>
+                                    <h6>CTO && Co-Founder</h6>
                                 </div>
                             </div><!-- ending of subheader -->
                             <div class="subbody">
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="titlename">
                                     <h6>>_$Mc Andy Louigene --- </h6>
-                                    <h5> CFO && Co-Founder</h5>
+                                    <h6> CFO && Co-Founder</h6>
                                 </div>
                             </div><!-- ending of subheader -->
                             <div class="subbody">
@@ -87,7 +87,7 @@
                                     </div>
                                     <div class="titlesname">
                                     <h6>>_$Mc dad Louigene ---  </h6>
-                                    <h5>Photographer && Co-Founder</h5>
+                                    <h6>Photographer && Co-Founder</h6>
                                     </div>
                                     <p class="cards-text">>_My name is MC Dad Louigene, and I am a contractor photographer 
                                         and a Model for LeeBoyzDeveloperz.
@@ -101,11 +101,11 @@
                                     </div>
                                     <div class="titlesname">
                                     <h6>>_$Isabel Cristina---</h6>
-                                    <h5>Software Engineer</h5>
+                                    <h6>Software Engineer</h6>
                                     </div>
                                     <p class="cards-text"> >_Hello everyone, my name is Isabel and a currently a Software Engineer.
                                         I felt in love ever since I start working with LeeBoyzDeveloperz.
-                                        My main passion is to build websites and work in the frontend as well as the backend.
+                                        
                                     </p>
                                 </div>
                             </div>

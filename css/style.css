@@ -122,7 +122,15 @@ Whole styles
 .whole {
 
   /* border: solid white; */
-
+  transition: all .2s ease-in-out;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #2f9b9b, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
   position: absolute;
   margin: 0 auto;
   width: 100%;
@@ -236,8 +244,17 @@ h1 {
 Title name styles
 
 **********************************/
+h6  
+{
+  
+  color: #7fffd4;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 5px #000, 0 0 5px #000,
+    0 0 5px #000, 0 0 6px #000, 0 0 5px #000;
+  font-size: 20px;
+  text-align: center;
 
-.titlename h5 {
+}
+.titlename h5 h4{
 
   color: #7fffd4;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
@@ -247,11 +264,11 @@ Title name styles
 
 }
 
-.titlename h4 {
+/* .titlename h4 {
 
   text-align: center;
 
-}
+} */
 
 .titlesname {
   /* border: bisque solid; */
