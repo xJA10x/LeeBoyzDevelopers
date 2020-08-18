@@ -42,7 +42,7 @@
           <div class="card">
             <img class="card-img-top" src="pictures/bestcity.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">One page site</h5>
+              <h5 class="card-title">One page site: </h5>
               <p class="card-text">Need something as one two three; we can help you</p>
             </div>
           </div>
@@ -90,7 +90,7 @@
         <div class="card">
             <img class="card-img-top" src="pictures/HostingService.png " alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Hosting/Service</h5>
+              <h5 class="card-titleT">Hosting/Service:</h5>
               <p class="card-text">Reliable website hosting, email, and affordabe domain prices. </p>
             </div>           
             <a href="https://www.secureserver.net/?prog_id=566807" class="btn btn-primary">Get your domain</a>      

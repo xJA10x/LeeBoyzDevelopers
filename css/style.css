@@ -151,11 +151,29 @@ Whole styles
 .card-title
 {
 
-  border: bisque solid;
+  /* border: bisque solid; */
   position: absolute;
-  bottom: 15px;
+  padding-left: 50px;
+  top: 170px;
   margin: 10px 15px 10px 15px;
   /* padding-top: 100px; */
+  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
+  0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
+
+}
+
+.card-titleT
+{
+
+  /* border: bisque solid; */
+  position: absolute;
+  top: 380px;
+  padding-left: 380px;
+  margin: 10px 15px 10px 15px;
+  /* padding-top: 100px; */
+  color: #7fffd4;
+  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 10px #000, 0 0 20px #000,
+  0 0 40px #000, 0 0 50px #000, 0 0 60px #000;
 
 }
 
