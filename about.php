@@ -29,7 +29,7 @@
                                     <img src="pictures/pablo.png"/ class="profile-photo">
                                 </div> 
                                 <div class="titlename">
-                                    <h4>>_$Pablo Benjumea ---</h4>
+                                    <h6>>_$Pablo Benjumea ---</h6>
                                     <h5>CTO && Co-Founder</h5>
                                 </div>
                             </div><!-- ending of subheader -->
@@ -49,7 +49,7 @@
                                     <img src="pictures/jceron.png" class="profile-photo">
                                 </div>
                                 <div class="titlename">
-                                    <h4>>_$Jhoset Ceron ---</h4>
+                                    <h6>>_$Jhoset Ceron ---</h6>
                                     <h5>CTO && Co-Founder</h5>
                                 </div>
                             </div><!-- ending of subheader -->
@@ -67,7 +67,7 @@
                                     <img src="pictures/mc.png" class="profile-photo">
                                 </div>
                                 <div class="titlename">
-                                    <h4>>_$Mc Andy Louigene --- </h4>
+                                    <h6>>_$Mc Andy Louigene --- </h6>
                                     <h5> CFO && Co-Founder</h5>
                                 </div>
                             </div><!-- ending of subheader -->
@@ -86,7 +86,7 @@
                                         <img src="pictures/mc2.png" class="profile-photo">
                                     </div>
                                     <div class="titlesname">
-                                    <h4>>_$Mc dad Louigene ---  </h4>
+                                    <h6>>_$Mc dad Louigene ---  </h6>
                                     <h5>Photographer && Co-Founder</h5>
                                     </div>
                                     <p class="cards-text">>_My name is MC Dad Louigene, and I am a contractor photographer 
@@ -100,7 +100,7 @@
                                         <img src="pictures/isabel2.png" width="100px" float="left" class="profile-photo">
                                     </div>
                                     <div class="titlesname">
-                                    <h4>>_$Isabel Cristina---</h4>
+                                    <h6>>_$Isabel Cristina---</h6>
                                     <h5>Software Engineer</h5>
                                     </div>
                                     <p class="cards-text"> >_Hello everyone, my name is Isabel and a currently a Software Engineer.

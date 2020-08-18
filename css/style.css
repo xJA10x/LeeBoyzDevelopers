@@ -254,7 +254,7 @@ Title name styles
 }
 
 .titlesname {
-  border: bisque solid;
+  /* border: bisque solid; */
   position: absolute;
   bottom: 15px;
   margin: 10px 15px 10px 15px;

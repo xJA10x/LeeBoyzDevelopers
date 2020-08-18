@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+    <head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script></head>
 <body>
     <header>
         <div class="topnav">
@@ -76,13 +87,15 @@
                                 <!--Grid column-->
                                 <div class="col-md-3 text-center">
                                     <ul class="list-unstyled mb-0">
-                                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                        <li>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>                                     
                                             <p>Fort Myers Fl, 33901</p>
                                         </li>
-                                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                        <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
                                             <p>(813)-434-0169</p>
                                         </li>
-                                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                        <li><i class="fa fa-envelope" aria-hidden="true"></i>
                                             <p>leeboyz@leeboyzdeveloperz.tech</p>
                                         </li>
                                     </ul>
