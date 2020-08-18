@@ -105,8 +105,7 @@ Whole styles
 .whole {
 
   border: solid white;
-    background:linear-gradient(#CCFFFF, transparent 70%),
-  linear-gradient(0deg, #fff, transparent), black;
+
   position: absolute;
   margin: 0 auto;
   width: 100%;
@@ -117,9 +116,10 @@ Whole styles
 }
 
 .left {
-
+  background:linear-gradient(#CCFFFF, transparent 70%),
+  linear-gradient(0deg, #fff, transparent), black;
   border: solid yellow;
-  width: 50%;
+  width: 49%;
   height: 100%;
   float: left;
   transition: all .2s ease-in-out;
@@ -133,9 +133,10 @@ Whole styles
 }
 
 .right {
-
+  background:linear-gradient(#CCFFFF, transparent 70%),
+  linear-gradient(0deg, #fff, transparent), black;
   border: solid brown;
-  width: 50%;
+  width: 49%;
   height: 100%;
   float: right;
   transition: all .2s ease-in-out;
