@@ -121,7 +121,7 @@ Whole styles
 
 .whole {
 
-  border: solid white;
+  /* border: solid white; */
 
   position: absolute;
   margin: 0 auto;
@@ -135,7 +135,7 @@ Whole styles
 .left {
   background:linear-gradient(#CCFFFF, transparent 70%),
   linear-gradient(0deg, #fff, transparent), black;
-  border: solid yellow;
+  /* border: solid yellow; */
   width: 49%;
   height: 100%;
   float: left;
@@ -152,7 +152,7 @@ Whole styles
 .right {
   background:linear-gradient(#CCFFFF, transparent 70%),
   linear-gradient(0deg, #fff, transparent), black;
-  border: solid brown;
+  /* border: solid brown; */
   width: 49%;
   height: 100%;
   float: right;
