@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/main.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
+  <link href="css/mediastyles.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -14,6 +15,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <script src="js/script.js"></script>
 </head>
 <div class="mainPic">
@@ -22,22 +24,43 @@
 <nav>
   <h1 id="main">>_LeeBoyz Developerz</h1>
   <ul>
-    <li><a onclick="myHome" id="home" class="thenav" href="index.php">Portfolio</a>
-    <li><a onclick="myTeam" id="team"  href="about.php">Team</a>
-    <li><a onclick="myContact" id="contact" class="thenav" href="contact.php">Contact</a>
+    <li><a onclick="myHome" id="home" class="thenav" href="index.php?dc=default-content">Portfolio</a>
+    <li><a onclick="myTeam" id="team"  href="about.php?dc=titleBannerTwo">Team</a>
+    <li><a onclick="myContact" id="contact" class="thenav" href="contact.php?dc=titleBannerThree">Contact</a>
   </ul>
 </nav>
 <div class ="mainTitle">
   <h3>Build and Design Brand that work</h3>
 </div>
-<script>
+<script type="text/javascript">
+// Parse the URL parameter
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+// Give the parameter a variable name
+var dynamicContent = getParameterByName('dc');
 
- var defaultTitle= document.getElementById("titleBannerOne");
+$(document).ready(function() {
+	// Check if the URL parameter is apples
+	if (dynamicContent == 'titleBannerTwo') {
+		$('#titleBannerTwo').show();
+	} 
+	// Check if the URL parameter is oranges
+	else if (dynamicContent == 'titleBannerThree') {
+		$('#titleBannerThree').show();
+	} 
+	// Check if the URL parmeter is empty or not defined, display default content
+	else {
+		$('#default-content').show();
+	}
+});
 
-  function myHome() {
-    var x = document.getElementById("titleBannerTwo");
-    document.getElementById("titleBannerTwo").innerHTML = x;
-  }
   </script>
 
 
