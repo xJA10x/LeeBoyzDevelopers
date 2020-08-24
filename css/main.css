@@ -77,10 +77,6 @@ Main header
 
   text-align: center;
   font-size: 70px;
-  /* color: #7fffd4;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
-    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  font-weight: 800; */
   padding: 50px 20px;
   margin-left: 70px;
 
@@ -92,34 +88,50 @@ Main header
 
 }
 
+.mainPic
+{
+  border: solid blue;
+}
+
 /***************************************
 
 Header and Navigation
 
 ***************************************/
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
+.sticky + .container {
+  padding-top: 60px;
+}
 header nav {
-
-  text-align: right;
+  border: solid red;
+  overflow: hidden;
+  /* text-align: right; */
   padding: 20px 0;
   margin: 20px 0 0;
   position: top;
+  text-align: center;
 
 }
 
-.thenav {
+/* .thenav {
 
   text-decoration: none;
 
-}
+} */
 
 header nav ul {
-
+  border: solid red;
   list-style: none;
-  margin: 10px 10px;
-  padding-left: 1000px;
+  margin: 10px;
+  right: 5px;
+  padding: 1px;
   position: fixed;
-  top: 5px;
+  top: 25%;
   
 }
 
@@ -130,15 +142,16 @@ header nav li {
 }
 
 header nav a {
-
-  font-weight: 800;
-  padding: 15px 10px;
+  border: solid red;
+  font-weight: 900;
+  padding: 15px ;
+  /* margin: 15px 10px; */
   text-decoration: none;
   color: #7fffd4;
-  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000,
-    0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+  text-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 15px #000, 0 0 5px #000,
+    0 0 5px #000, 0 0 15px #000, 0 0 5px #000;
   font-size: 30px;
-  position: top;
+  /* position: relative; */
   text-align: center;
   
 }
@@ -150,7 +163,7 @@ header nav a {
 **************************/
 
 .topnav {
-
+  border: solid red;
   overflow: auto;
   background: linear-gradient(#79cdcd, transparent 90%),
     linear-gradient(0deg, #fff, transparent),
@@ -171,10 +184,10 @@ header nav a {
   width: 120px;
   margin: 5px;
   padding: 5px;
-  text-decoration: none;
+  /* text-decoration: none;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
     0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  font-size: 30px;
+  font-size: 30px; */
 
 }
 

@@ -23,12 +23,15 @@
 </div>
 <nav>
   <h1 id="main">>_LeeBoyz Developerz</h1>
+  <div id="navbar">
   <ul>
     <li><a onclick="myHome" id="home" class="thenav" href="index.php?dc=default-content">Portfolio</a>
     <li><a onclick="myTeam" id="team"  href="about.php?dc=titleBannerTwo">Team</a>
     <li><a onclick="myContact" id="contact" class="thenav" href="contact.php?dc=titleBannerThree">Contact</a>
   </ul>
+</div>
 </nav>
+
 <div class ="mainTitle">
   <h3>Build and Design Brand that work</h3>
 </div>
@@ -61,6 +64,18 @@ $(document).ready(function() {
 	}
 });
 
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
   </script>
 
 
