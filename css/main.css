@@ -88,10 +88,6 @@ Main header
 
 }
 
-.mainPic
-{
-  border: solid blue;
-}
 
 /***************************************
 
@@ -101,7 +97,7 @@ Header and Navigation
 .sticky {
   position: fixed;
   top: 0px;
-  left: 35%;
+  left: 25%;
   width: 100%;
 }
 
@@ -109,63 +105,63 @@ Header and Navigation
   padding-top: 60px;
 }
 header nav {
-  border: solid red;
+  /* border: solid red; */
   overflow: hidden;  
   padding: 20px 0;
   margin: 20px 0 0;  
   text-align: center;
 
 }
-nav{
+#navbar{
   
-  padding: 90px 10px;
+  padding: 5px;
   transition: 0.4s;  
-  width: 100%;
+  /* width: 100%; */
   top: 0;
   z-index: 99;
 }
+/* li a {
+    float: left;
+   margin: 50px;
+} */
 
 .thenav
 {
   /* float: left;   */
   text-align: center;
-  padding: 12px;
+  /* padding: 12px; */
   margin-left: 6%;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
   text-align: center;
+  /* letter-spacing: 1px; */
   
 }
-
-/* header nav ul {
-  border: solid red;
-  list-style: none;
-  margin: 10px;
-  right: 5px;
-  padding: 1px;
-  position: fixed;
-  top: 25%;
-  
+/* #navbar
+{
+  border: solid blue;
 } */
-/* 
-header nav li {
-
-  display: inline-block;
-
+/* .fa-briefcase{
+  border: solid purple;  
+}
+.fa-users
+{
+  border: solid purple;
+}
+.fa-envelope {
+  border: solid purple;
 } */
+
 
 header nav a {
-  border: solid red;
-  /* font-weight: 900; */
-  /* padding: 15px ; */
+  /* border: solid red; */
+  font-weight: 900; 
+  padding-right: 15px;
   text-decoration: none;
   color: #7fffd4;
   text-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 15px #000, 0 0 5px #000,
-    0 0 5px #000, 0 0 15px #000, 0 0 5px #000;
-  /* font-size: 30px; */
-  /* text-align: center; */
-  
+    0 0 5px #000, 0 0 15px #000, 0 0 5px #000;  
 }
 
 /*************************
@@ -175,7 +171,6 @@ header nav a {
 **************************/
 
 .topnav {
-  border: solid red;
   overflow: auto;
   background: linear-gradient(#79cdcd, transparent 90%),
     linear-gradient(0deg, #fff, transparent),
@@ -188,30 +183,6 @@ header nav a {
 
 }
 
-/* .topnav a {
-
-  float: left;
-  color: #7fffd4;
-  position: top;
-  width: 120px;
-  margin: 5px;
-  padding: 5px;
-}
-
-.topnav a:hover {
-
-  text-decoration: none;
-  color: white;
-  position: top;
-
-}
-
-.topnav a.active {
-
-  color: white;
-  position: top;
-
-} */
 
 /*************************
 
@@ -326,3 +297,45 @@ Media queries
 
 
 }
+/* header nav ul {
+  border: solid red;
+  list-style: none;
+  margin: 10px;
+  right: 5px;
+  padding: 1px;
+  position: fixed;
+  top: 25%;
+  
+} */
+/* 
+header nav li {
+
+  display: inline-block;
+
+} */
+
+
+/* .topnav a {
+
+  float: left;
+  color: #7fffd4;
+  position: top;
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.topnav a:hover {
+
+  text-decoration: none;
+  color: white;
+  position: top;
+
+}
+
+.topnav a.active {
+
+  color: white;
+  position: top;
+
+} */
