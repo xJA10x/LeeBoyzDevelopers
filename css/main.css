@@ -101,6 +101,7 @@ Header and Navigation
 .sticky {
   position: fixed;
   top: 0px;
+  left: 35%;
   width: 100%;
 }
 
@@ -109,22 +110,35 @@ Header and Navigation
 }
 header nav {
   border: solid red;
-  overflow: hidden;
-  /* text-align: right; */
+  overflow: hidden;  
   padding: 20px 0;
-  margin: 20px 0 0;
-  position: top;
+  margin: 20px 0 0;  
   text-align: center;
 
 }
+nav{
+  
+  padding: 90px 10px;
+  transition: 0.4s;  
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
 
-/* .thenav {
-
+.thenav
+{
+  /* float: left;   */
+  text-align: center;
+  padding: 12px;
+  margin-left: 6%;
   text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  text-align: center;
+  
+}
 
-} */
-
-header nav ul {
+/* header nav ul {
   border: solid red;
   list-style: none;
   margin: 10px;
@@ -133,26 +147,24 @@ header nav ul {
   position: fixed;
   top: 25%;
   
-}
-
+} */
+/* 
 header nav li {
 
   display: inline-block;
 
-}
+} */
 
 header nav a {
   border: solid red;
-  font-weight: 900;
-  padding: 15px ;
-  /* margin: 15px 10px; */
+  /* font-weight: 900; */
+  /* padding: 15px ; */
   text-decoration: none;
   color: #7fffd4;
   text-shadow: 0 0 15px #000, 0 0 5px #000, 0 0 15px #000, 0 0 5px #000,
     0 0 5px #000, 0 0 15px #000, 0 0 5px #000;
-  font-size: 30px;
-  /* position: relative; */
-  text-align: center;
+  /* font-size: 30px; */
+  /* text-align: center; */
   
 }
 
@@ -176,7 +188,7 @@ header nav a {
 
 }
 
-.topnav a {
+/* .topnav a {
 
   float: left;
   color: #7fffd4;
@@ -199,19 +211,19 @@ header nav a {
   color: white;
   position: top;
 
-}
+} */
 
 /*************************
 
 website nav
 
 **************************/
-
+/* 
 #website nav {
 
   text-align: center;
 
-}
+} */
 
 /*************************
 
