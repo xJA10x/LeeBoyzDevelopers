@@ -115,28 +115,19 @@ header nav {
 #navbar{
   
   padding: 5px;
-  transition: 0.4s;  
-  /* width: 100%; */
+  transition: 0.4s;    
   top: 0;
   z-index: 99;
 }
-/* li a {
-    float: left;
-   margin: 50px;
-} */
 
 .thenav
-{
-  /* float: left;   */
-  text-align: center;
-  /* padding: 12px; */
+{  
+  text-align: center;  
   margin-left: 6%;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  text-align: center;
-  /* letter-spacing: 1px; */
-  
+  text-align: center; 
 }
 /* #navbar
 {
@@ -183,19 +174,6 @@ header nav a {
 
 }
 
-
-/*************************
-
-website nav
-
-**************************/
-/* 
-#website nav {
-
-  text-align: center;
-
-} */
-
 /*************************
 
 Article styles
@@ -214,11 +192,6 @@ article h3 {
   color: #7fffd4;
   text-align: center;
   font-size: 50px;
-}
-
-article h4 {
-
-  font-size: 20px;
 }
 
 article p {
@@ -293,7 +266,6 @@ Media queries
 
 @media (max-height: 800px) {
 
-  
 
 
 }

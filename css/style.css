@@ -211,15 +211,28 @@ Main title styles
 
 ********************************/
 
+#mainTitle
+{
+  position: relative;
+  padding-top: 2%;
+
+}
+/* .mainTitle
+{
+  border: solid blue;
+  position: relative;
+  top: 5px;
+  
+} */
 .mainTitle h3 {
 
-  text-align: center;
-  padding-top: 250px;
+  text-align: center;  
   font-size: 50px;
   color: #7fffd4;
-  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 30px #000,
-    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000,
+    0 0 10px #000, 0 0 10px #000, 0 0 20px #000;
   font-weight: 800;
+  top: 5px;
   
 }
 
@@ -232,8 +245,8 @@ title styles
 h1 {
 
   color: #7fffd4;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
-    0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000,
+    0 0 20px #000, 0 0 30px #000, 0 0 20px #000;
   font-size: 30px;
   text-align: center;
 
@@ -254,7 +267,7 @@ h6
   text-align: center;
 
 }
-.titlename h5 h4{
+.titlename h5{
 
   color: #7fffd4;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
@@ -263,12 +276,6 @@ h6
   text-align: center;
 
 }
-
-/* .titlename h4 {
-
-  text-align: center;
-
-} */
 
 .titlesname {
   /* border: bisque solid; */

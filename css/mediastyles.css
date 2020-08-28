@@ -93,37 +93,23 @@ Media queries
 Media queries
 
 ************************************************/
-
-@media (max-height: 850px) {
-
-  .mainTitle h3 {
-
-      text-align: center;
-      padding-top: 220px;
-      font-size: 50px;
-      color: #7fffd4;
-      text-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 20px #000, 0 0 30px #000,
-        0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-      font-weight: 800;
-      
-    }
+@media (min-width: 768px ) and (max-width: 1023px) {
 
 }
 
-@media (max-width: 768px) {
+/*Set min-width 425px to max-width 767px*/
+@media (min-width: 425px ) and (max-width: 767px) {  
 
-  .mainTitle h3 {
-    
-    font-size: 25px;
-    text-align: center;
-    position: absolute;
-    bottom: 90px;
-    right: 40px;
-    margin: 0 auto;
-    
-  
+}
 
-  }
+
+
+/* }
+@media (max-height: 850px) {
+} */
+
+/* @media (max-width: 768px) {
+
 
   #main {
 
@@ -146,4 +132,4 @@ Media queries
 
   }
 
-}
+} */
