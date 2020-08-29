@@ -96,15 +96,74 @@ Media queries
 /* Laptop with with of 1024 */
 @media (min-width: 1024px ) and (max-width: 1439px) { 
 
+  
+  #main {
+
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: center;
+
+  }
+
+  #mainTitle {
+
+    font-size: 50px;
+    
+    
+  }
+ 
+
 }
 
 /* Tablet with 768 */
 @media (min-width: 768px ) and (max-width: 1023px) {
 
+  #main {
+
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+
+  }
+
+  #mainTitle {
+
+    font-size: 40px;
+    text-align: center;
+    
+  }
+
+  header nav a {
+
+    font-size: 20px;
+
+  }
+
+  .topnav {
+
+    height: 600px;
+
+  }
+
 }
 
 /*Set min-width 425px to max-width 767px*/
 @media (min-width: 425px ) and (max-width: 767px) {  
+
+  #main {
+
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: center;
+
+  }
+
+  #mainTitle {
+
+    font-size: 30px;
+    text-align: center;
+    
+  }
 
 }
 
