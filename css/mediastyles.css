@@ -136,8 +136,8 @@ Media queries
   .topnav
   {
     border: solid blue;
-    width: 99%;
-    height: 99%;
+    width: 100%;
+    height: 5538px;
   }
   #main {
 
