@@ -168,6 +168,43 @@ Media queries
 
   }
 
+  .card-title
+{
+
+  /* border: bisque solid; */
+  position: absolute;
+  padding-left: 10px;
+  top: 10px;
+  margin: 10px 15px 10px 15px;
+  padding-top: 100px;
+   padding-top: 100px;
+   color: #7fffd4;
+   text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000,
+     0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+
+}
+
+.card-titleT {
+
+  position: absolute;
+  padding-left: 10px;
+  top: 270px;
+
+
+}
+
+.main-about {
+
+  /* border: solid blue; */
+  margin: 0 auto;
+  position: relative;
+  height: 1000px;
+  width: 1000px;
+  width: 90%;
+  font-size: 10px;
+  
+}
+
  
 /*********************************************
 
@@ -246,6 +283,43 @@ About Page
 
 
   }
+
+  .card-title
+{
+
+  /* border: bisque solid; */
+  position: absolute;
+  padding-left: 10px;
+  top: 120px;
+  margin: 10px 15px 10px 15px;
+  padding-top: 100px;
+   padding-top: 100px;
+   color: #7fffd4;
+   text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000,
+     0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+
+}
+
+.card-titleT {
+
+  position: absolute;
+  padding-left: 10px;
+  top: 150px;
+
+
+}
+
+.main-about {
+
+  /* border: solid blue; */
+  margin: 0 auto;
+  position: relative;
+  height: 1000px;
+  width: 100px;
+  width: 100%;
+  
+  
+}
 
 
 }
