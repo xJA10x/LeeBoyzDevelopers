@@ -88,14 +88,14 @@
                                     <ul class="list-unstyled mb-0">
                                         <li>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>                                     
-                                            <p>Fort Myers Fl, 33901</p>
+                                            <p class="envelope">Fort Myers Fl, 33901</p>
                                         </li>
                                         <li>
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                            <p>(813)-434-0169</p>
+                                            <p class="envelope">(813)-434-0169</p>
                                         </li>
                                         <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                            <p>leeboyz@leeboyzdeveloperz.tech</p>
+                                            <p class="envelope">leeboyz@leeboyzdeveloperz.tech</p>
                                         </li>
                                     </ul>
                                 </div>
